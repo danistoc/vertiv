@@ -66,6 +66,8 @@ namespace PasswordManagementApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(p => p.AllowAnyMethod().AllowAnyOrigin().AllowAnyHeader());
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

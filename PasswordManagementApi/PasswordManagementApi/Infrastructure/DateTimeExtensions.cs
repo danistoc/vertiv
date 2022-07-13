@@ -5,7 +5,7 @@ namespace PasswordManagementApi.Infrastructure
 {
     public static class DateTimeExtensions
     {
-        private const string DateFormat = "dd-MM-yyyy HH:mm:ss";
+        private const string DateFormat = "yyyy-MM-dd'T'HH:mm:ss";
         
         public static DateTime ToDateTime(this string dateAsString)
         {
