@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+PasswordManagementApi/*/bin/*
+PasswordManagementApi/*/obj/*
+PasswordManagementApi/.vs
+PasswordManagementApi/packages
+PasswordManagementApi/*/*.csproj.user
+PasswordManagementApi/*/Output
+PasswordManagementApi/*/Test
+
+node_modules/
+/.vs
